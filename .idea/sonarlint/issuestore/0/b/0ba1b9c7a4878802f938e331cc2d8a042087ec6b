@@ -1,0 +1,30 @@
+
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÛÛ¯ø8ã±õÖ1
+U
+java:S1854W"9Remove this useless assignment to local variable "nname".(µèG8ä±õÖ1
+L	java:S106"+Replace this use of System.out by a logger.(‚ŞÏ¥ıÿÿÿÿ8å±õÖ1
+L	java:S106"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8å±õÖ1
+G	java:S106"+Replace this use of System.out by a logger.(´£†8å±õÖ1
+]	java:S125"<This block of commented-out lines of code should be removed.(õò˜ïúÿÿÿÿ8æ±õÖ1
+G	java:S106"+Replace this use of System.out by a logger.(Ê‰¤Ù8æ±õÖ1
+L	java:S106"+Replace this use of System.out by a logger.(óŸõéøÿÿÿÿ8æ±õÖ1
+F	java:S106"+Replace this use of System.out by a logger.(ş‰åX8æ±õÖ1
+G	java:S106""+Replace this use of System.out by a logger.(›Ó§ó8æ±õÖ1
+L	java:S106+"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8æ±õÖ1
+L	java:S1061"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8ç±õÖ1
+G	java:S106="+Replace this use of System.out by a logger.(°©Òİ8ç±õÖ1
+G	java:S106@"+Replace this use of System.out by a logger.(ÍÆ†º8è±õÖ1
+L	java:S106G"+Replace this use of System.out by a logger.(æ–İ€ÿÿÿÿÿ8è±õÖ1
+L	java:S106J"+Replace this use of System.out by a logger.(‡¸œıúÿÿÿÿ8è±õÖ1
+L	java:S106M"+Replace this use of System.out by a logger.(¨ıÕÿÿÿÿÿ8ê±õÖ1
+L	java:S106P"+Replace this use of System.out by a logger.(íå¼¶ıÿÿÿÿ8ë±õÖ1
+L	java:S106R"+Replace this use of System.out by a logger.(ˆšú×úÿÿÿÿ8ë±õÖ1
+L	java:S106T"+Replace this use of System.out by a logger.(†·§ÿÿÿÿÿ8ë±õÖ1
+L	java:S106U"+Replace this use of System.out by a logger.(Ÿ‚£æüÿÿÿÿ8ë±õÖ1
+F
+java:S1481W"*Remove this unused "nname" local variable.(µèG8ì±õÖ1
+F	java:S106Z"+Replace this use of System.out by a logger.(¢È!8ì±õÖ1
+L	java:S106["+Replace this use of System.out by a logger.(ëë¥²üÿÿÿÿ8ì±õÖ1
+m
+java:S1128"PRemove this unused import 'javax.print.attribute.standard.OrientationRequested'.(ôõß’8í±õÖ1
