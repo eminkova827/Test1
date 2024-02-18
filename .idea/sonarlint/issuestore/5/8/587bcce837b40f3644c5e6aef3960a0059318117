@@ -1,0 +1,15 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®ÚåÀ8§®“Ù1
+r
+java:S1149	"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(‡Œºøÿÿÿÿ8¯®“Ù1
+L	java:S106"+Replace this use of System.out by a logger.(Şå“¾üÿÿÿÿ8³®“Ù1
+L	java:S106"+Replace this use of System.out by a logger.(®™ûÿÿÿÿ8³®“Ù1
+L	java:S106"+Replace this use of System.out by a logger.(Şå“¾üÿÿÿÿ8³®“Ù1
+G	java:S106"+Replace this use of System.out by a logger.(øê“Å8´®“Ù1
+L	java:S106"+Replace this use of System.out by a logger.(Şå“¾üÿÿÿÿ8´®“Ù1
+G	java:S106"+Replace this use of System.out by a logger.(óÎäß8´®“Ù1
+G	java:S106"+Replace this use of System.out by a logger.(óÎäß8µ®“Ù1
+L	java:S106"+Replace this use of System.out by a logger.(Şå“¾üÿÿÿÿ8µ®“Ù1
+G	java:S106"+Replace this use of System.out by a logger.(•À°Ï8¶®“Ù1
+Q
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8¶®“Ù1

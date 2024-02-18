@@ -1,0 +1,15 @@
+
+r	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰­¸Ûúÿÿÿÿ8¥·ığÚ1
+G	java:S106"+Replace this use of System.out by a logger.(¤’¿è8á·ığÚ1
+L	java:S106"+Replace this use of System.out by a logger.(ö–Ó¥ûÿÿÿÿ8â·ığÚ1
+G	java:S106"+Replace this use of System.out by a logger.(¹éïï8â·ığÚ1
+G	java:S106"+Replace this use of System.out by a logger.(Œ²¦ 8â·ığÚ1
+L	java:S106"+Replace this use of System.out by a logger.(›ÛùÂÿÿÿÿÿ8ã·ığÚ1
+G	java:S106"+Replace this use of System.out by a logger.(´²Àâ8ã·ığÚ1
+F	java:S106"+Replace this use of System.out by a logger.(ĞÃëz8ã·ığÚ1
+G	java:S106"+Replace this use of System.out by a logger.(¦å´À8ã·ığÚ1
+L	java:S106!"+Replace this use of System.out by a logger.(’íëÌúÿÿÿÿ8ä·ığÚ1
+n
+java:S3457."Q%n should be used in place of \n to produce the platform-specific line separator.(È‰¯é8ä·ığÚ1
+G	java:S106."+Replace this use of System.out by a logger.(È‰¯é8ä·ığÚ1
+L	java:S1061"+Replace this use of System.out by a logger.(«Šáõşÿÿÿÿ8ä·ığÚ1

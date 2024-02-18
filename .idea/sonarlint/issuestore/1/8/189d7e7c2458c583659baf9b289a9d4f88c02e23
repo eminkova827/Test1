@@ -1,0 +1,13 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿È‰ãüÿÿÿÿ8ûÑ»õÚ1
+L	java:S106"+Replace this use of System.out by a logger.(ë°Îøÿÿÿÿ8ÄÒ»õÚ1
+s
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Ğ’¤øÿÿÿÿ8ÄÒ»õÚ1
+L	java:S106"+Replace this use of System.out by a logger.(Ğ’¤øÿÿÿÿ8ÄÒ»õÚ1
+G	java:S106"+Replace this use of System.out by a logger.(êµ„Á8ÄÒ»õÚ1
+F	java:S106!"+Replace this use of System.out by a logger.(Ó³†#8ÆÒ»õÚ1
+s
+java:S3457*"Q%n should be used in place of \n to produce the platform-specific line separator.(ëßÙúÿÿÿÿ8ÆÒ»õÚ1
+L	java:S106*"+Replace this use of System.out by a logger.(ëßÙúÿÿÿÿ8ÆÒ»õÚ1
+L	java:S106-"+Replace this use of System.out by a logger.(•‘”·ÿÿÿÿÿ8ÆÒ»õÚ1
+]	java:S1253"<This block of commented-out lines of code should be removed.(ÄÏˆøÿÿÿÿ8ÇÒ»õÚ1

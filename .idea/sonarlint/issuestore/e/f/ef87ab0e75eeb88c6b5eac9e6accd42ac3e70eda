@@ -1,0 +1,17 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–ÝŒ²þÿÿÿÿ8ßÞþ¢Ù1
+X	java:S125"<This block of commented-out lines of code should be removed.(ÞÚÇÙ8äÞþ¢Ù1
+]	java:S125"<This block of commented-out lines of code should be removed.(ðÓÜ¯ûÿÿÿÿ8åÞþ¢Ù1
+]	java:S125"<This block of commented-out lines of code should be removed.(¾ô›šøÿÿÿÿ8åÞþ¢Ù1
+]	java:S125/"<This block of commented-out lines of code should be removed.(ÿÒäÄùÿÿÿÿ8åÞþ¢Ù1
+]	java:S125C"<This block of commented-out lines of code should be removed.(ÁÔî‰ûÿÿÿÿ8åÞþ¢Ù1
+X	java:S125P"<This block of commented-out lines of code should be removed.(Ä¨ÄÆ8æÞþ¢Ù1
+]	java:S125R"<This block of commented-out lines of code should be removed.(Ì“õÞýÿÿÿÿ8æÞþ¢Ù1
+]	java:S125X"<This block of commented-out lines of code should be removed.(Í˜óŠøÿÿÿÿ8æÞþ¢Ù1
+L	java:S106]"+Replace this use of System.out by a logger.(ÁÀø¯ûÿÿÿÿ8æÞþ¢Ù1
+G	java:S106a"+Replace this use of System.out by a logger.(ô¡–Ñ8çÞþ¢Ù1
+\
+java:S1161l":Add the "@Override" annotation above this method signature(íÐŽ„ûÿÿÿÿ8çÞþ¢Ù1
+X	java:S125d"<This block of commented-out lines of code should be removed.(•°†ë8çÞþ¢Ù1
+]	java:S125f"<This block of commented-out lines of code should be removed.(¸Ø¤Òþÿÿÿÿ8çÞþ¢Ù1
+L	java:S106n"+Replace this use of System.out by a logger.(Ëþ‰´øÿÿÿÿ8çÞþ¢Ù1

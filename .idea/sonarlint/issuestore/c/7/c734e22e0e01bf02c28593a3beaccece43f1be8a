@@ -1,0 +1,25 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘ÕÎÿÿÿÿÿ8üÄ’ÅÙ1
+b	java:S107S"AConstructor has 8 parameters, which is greater than 7 authorized.(Ô¸êùÿÿÿÿ8Öˆ™ÅÙ1
+X	java:S125"<This block of commented-out lines of code should be removed.(ŞÚÇÙ8ƒÅ’ÅÙ1
+]	java:S125"<This block of commented-out lines of code should be removed.(ğÓÜ¯ûÿÿÿÿ8„Å’ÅÙ1
+]	java:S125"<This block of commented-out lines of code should be removed.(¾ô›šøÿÿÿÿ8„Å’ÅÙ1
+N
+java:S1172S",Remove this unused method parameter "breed".(Ô¸êùÿÿÿÿ8”Ô—ÅÙ1
+]	java:S1252"<This block of commented-out lines of code should be removed.(ÿÒäÄùÿÿÿÿ8…Å’ÅÙ1
+]	java:S125F"<This block of commented-out lines of code should be removed.(ÁÔî‰ûÿÿÿÿ8…Å’ÅÙ1
+]	java:S125R"<This block of commented-out lines of code should be removed.(ßí„”ÿÿÿÿÿ8…Å’ÅÙ1
+X	java:S125V"<This block of commented-out lines of code should be removed.(Ä¨ÄÆ8†Å’ÅÙ1
+]	java:S125X"<This block of commented-out lines of code should be removed.(Ì“õŞıÿÿÿÿ8†Å’ÅÙ1
+]	java:S125^"<This block of commented-out lines of code should be removed.(Í˜óŠøÿÿÿÿ8†Å’ÅÙ1
+L	java:S106c"+Replace this use of System.out by a logger.(ÁÀø¯ûÿÿÿÿ8‡Å’ÅÙ1
+G	java:S106g"+Replace this use of System.out by a logger.(ô¡–Ñ8‡Å’ÅÙ1
+\
+java:S1161r":Add the "@Override" annotation above this method signature(íĞ„ûÿÿÿÿ8ˆÅ’ÅÙ1
+X	java:S125j"<This block of commented-out lines of code should be removed.(•°†ë8ˆÅ’ÅÙ1
+]	java:S125l"<This block of commented-out lines of code should be removed.(¸Ø¤Òşÿÿÿÿ8ˆÅ’ÅÙ1
+L	java:S106t"+Replace this use of System.out by a logger.(Ëş‰´øÿÿÿÿ8ˆÅ’ÅÙ1
+H
+java:S1128"&Remove this unused import 'OOP.Bread'.(œ¥‹·şÿÿÿÿ8Üñ™ÅÙ1
+A
+java:S1128"$Remove this unused import 'OOP.Pet'.(¹ÈË’8Üñ™ÅÙ1

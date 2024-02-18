@@ -1,0 +1,36 @@
+
+e
+java:S11929"HDefine a constant instead of duplicating this literal "num1 = " 3 times.(›îªø8 ¶ÎðÚ1
+j
+java:S1192:"HDefine a constant instead of duplicating this literal "num2 = " 3 times.(¸´›èÿÿÿÿÿ8¡¶ÎðÚ1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ã¸ã‘úÿÿÿÿ
+L	java:S106"+Replace this use of System.out by a logger.(Ã²òÊÿÿÿÿÿ8¶¶ÎðÚ1
+G	java:S106"+Replace this use of System.out by a logger.(î¶Þó8·¶ÎðÚ1
+G	java:S106)"+Replace this use of System.out by a logger.(‘¡ºš8¸¶ÎðÚ1
+G	java:S1069"+Replace this use of System.out by a logger.(›îªø8º¶ÎðÚ1
+L	java:S106:"+Replace this use of System.out by a logger.(¸´›èÿÿÿÿÿ8º¶ÎðÚ1
+G	java:S106<"+Replace this use of System.out by a logger.(ªŠÂã8º¶ÎðÚ1
+G	java:S106B"+Replace this use of System.out by a logger.(›îªø8º¶ÎðÚ1
+L	java:S106C"+Replace this use of System.out by a logger.(¸´›èÿÿÿÿÿ8»¶ÎðÚ1
+L	java:S106D"+Replace this use of System.out by a logger.(ùî¬Ìýÿÿÿÿ8»¶ÎðÚ1
+G	java:S106E"+Replace this use of System.out by a logger.(ªŠÂã8»¶ÎðÚ1
+]	java:S125F"<This block of commented-out lines of code should be removed.(´—†‚ùÿÿÿÿ8»¶ÎðÚ1
+G	java:S106L"+Replace this use of System.out by a logger.(›îªø8¼¶ÎðÚ1
+L	java:S106M"+Replace this use of System.out by a logger.(¸´›èÿÿÿÿÿ8½¶ÎðÚ1
+G	java:S106N"+Replace this use of System.out by a logger.(†ù¾ƒ8½¶ÎðÚ1
+]	java:S125O"<This block of commented-out lines of code should be removed.(Üä—Øùÿÿÿÿ8½¶ÎðÚ1
+F	java:S106U"+Replace this use of System.out by a logger.(åô·y8¿¶ÎðÚ1
+L	java:S106W"+Replace this use of System.out by a logger.(Ç­ÎÆúÿÿÿÿ8¿¶ÎðÚ1
+L	java:S106Z"+Replace this use of System.out by a logger.(¼Üœøÿÿÿÿ8¿¶ÎðÚ1
+L	java:S106\"+Replace this use of System.out by a logger.(±ýàåýÿÿÿÿ8¿¶ÎðÚ1
+L	java:S106_"+Replace this use of System.out by a logger.(Ø³ºùýÿÿÿÿ8¿¶ÎðÚ1
+L	java:S106b"+Replace this use of System.out by a logger.(‹´Ýëúÿÿÿÿ8À¶ÎðÚ1
+X	java:S125a"<This block of commented-out lines of code should be removed.(Øð•ˆ8À¶ÎðÚ1
+L	java:S106e"+Replace this use of System.out by a logger.(üÀ§¡üÿÿÿÿ8À¶ÎðÚ1
+n
+java:S3457p"Q%n should be used in place of \n to produce the platform-specific line separator.(Î€³ˆ8Á¶ÎðÚ1
+G	java:S106p"+Replace this use of System.out by a logger.(Î€³ˆ8Á¶ÎðÚ1
+n
+java:S3457t"Q%n should be used in place of \n to produce the platform-specific line separator.(ªû“š8Â¶ÎðÚ1
+G	java:S106t"+Replace this use of System.out by a logger.(ªû“š8Â¶ÎðÚ1
+G	java:S106v"+Replace this use of System.out by a logger.(Ïï‚¸8Â¶ÎðÚ1

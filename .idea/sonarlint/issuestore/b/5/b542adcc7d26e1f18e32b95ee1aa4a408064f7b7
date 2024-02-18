@@ -1,0 +1,17 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¬“¼üûÿÿÿÿ8š¿ìŸÙ1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™Á¶şÿÿÿÿ
+L	java:S1066"+Replace this use of System.out by a logger.(¶„åÜùÿÿÿÿ8Ö¥ïŸÙ1
+]	java:S125B"<This block of commented-out lines of code should be removed.(ÁÔî‰ûÿÿÿÿ8Ø¥ïŸÙ1
+]	java:S125W"<This block of commented-out lines of code should be removed.(óÛ€Îşÿÿÿÿ8Ù¥ïŸÙ1
+L	java:S106]"+Replace this use of System.out by a logger.(ÁÀø¯ûÿÿÿÿ8Ù¥ïŸÙ1
+G	java:S106a"+Replace this use of System.out by a logger.(ÕèÉ8Ú¥ïŸÙ1
+G	java:S106e"+Replace this use of System.out by a logger.(ø­¦—8Û¥ïŸÙ1
+6
+java:S3457j"4th argument is not used.(·Ù©¹8Ü¥ïŸÙ1
+G	java:S106j"+Replace this use of System.out by a logger.(·Ù©¹8Ü¥ïŸÙ1
+X	java:S125i"<This block of commented-out lines of code should be removed.(ÕÆå²8İ¥ïŸÙ1
+P
+java:S1144m".Remove this unused private "isDogGood" method.(¿òˆ³ÿÿÿÿÿ8Ş¥ïŸÙ1
+K
+java:S1144u".Remove this unused private "isDogMale" method.(ùéíÑ8Ş¥ïŸÙ1

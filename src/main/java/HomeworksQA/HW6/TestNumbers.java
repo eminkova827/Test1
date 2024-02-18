@@ -23,11 +23,6 @@ public class TestNumbers {
         sdf.sumAver(num1, num2);
         System.out.println("\n------sumichka(sum(sum--------");
 
-        // sumichka(sumichka(num1, num2), num1);
-
-        System.out.println("sumichka = " + sumichka(sumichka(num1, num2), num3));
-
-        System.out.println("\n------sumichka(sum(sum--------");
 
         // sumichka(sumichkata(num1, num2), num1);
 
@@ -40,14 +35,6 @@ public class TestNumbers {
         sdf.samenumbers(num1, num2, num3);
 
     }
-
-    private static int sumichka(int i, int j) {
-        return i + j;
-    }
-
-
-
-
 
 
     //end

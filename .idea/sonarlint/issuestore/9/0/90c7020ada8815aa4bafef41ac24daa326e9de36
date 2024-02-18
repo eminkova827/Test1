@@ -1,0 +1,7 @@
+
+
+java:S4165&"kRemove this useless assignment; "bagOfProducts" already holds the assigned value along all execution paths.(œçÕ¤ùÿÿÿÿ8Û‹“ğÚ1
+L	java:S106"+Replace this use of System.out by a logger.(œú™éıÿÿÿÿ8ÛÙ±Ú1
+G	java:S106 "+Replace this use of System.out by a logger.(¤èÁ€8àÙ±Ú1
+Q
+java:S1656&"/Remove or correct this useless self-assignment.(œçÕ¤ùÿÿÿÿ8â‹“ğÚ1
