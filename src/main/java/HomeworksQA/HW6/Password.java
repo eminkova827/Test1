@@ -61,7 +61,7 @@ public class Password {
                 System.out.printf("count = %d , countLett = %d, countSymb = %d", count, countLett, countSymb);
                 if (count < 1 || count > 1 || countLett > 6 || countSymb < 1 || countSymb > 1) {
                     // return false;
-                    System.out.println("\nQA-Incorrect password. It must contains 1 symbol, 1 number and 6 letters");
+                    System.out.println("\nQA-Incorrect password. It must contains 1 symbol, 1 number and min 6 letters");
 
                 } else {
                     System.out.printf("\nQA-Valid password:%s It contains 1 symbol, 1 number and 6 letters",
