@@ -119,7 +119,9 @@ public class Numbers {
         }
     }
 
-
+    public static int sumichkata(int i, int j) {
+        return i + j;
+    }
 
 
 

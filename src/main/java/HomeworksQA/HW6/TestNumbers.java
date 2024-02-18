@@ -1,5 +1,7 @@
 package HomeworksQA.HW6;
 
+import static HomeworksQA.HW6.Numbers.sumichkata;
+
 public class TestNumbers {
 
 
@@ -24,6 +26,12 @@ public class TestNumbers {
         // sumichka(sumichka(num1, num2), num1);
 
         System.out.println("sumichka = " + sumichka(sumichka(num1, num2), num3));
+
+        System.out.println("\n------sumichka(sum(sum--------");
+
+        // sumichka(sumichkata(num1, num2), num1);
+
+        System.out.println("sumichkata = " + sumichkata(sumichkata(num1, num2), num3));
 
         // positive numbers
 
