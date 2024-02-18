@@ -32,7 +32,7 @@ public class Parrot extends Pets{
 
 
 // constructor za Parrot
-//ot Pets: public Pets(String name, float weight, String size,  boolean isMale, float years, ParrotBreed bread){
+
     public Parrot(String name, float weight, String size,  boolean isMale, float years, boolean likeRawMeat, PetBreed breed ){
         super(name, weight, size, isMale, years, likeRawMeat); // nasledqwane wikame h=ka ot parrent klasa sys super ot glawniq klas pets
 

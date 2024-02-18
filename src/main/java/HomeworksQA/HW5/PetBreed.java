@@ -41,8 +41,6 @@ public class PetBreed {
         this.colors = colors;  }
 
 
-
-
     //public boolean isHandEat() { return handEat; }
 
     public void setHandEat(boolean handEat) { this.handEat = handEat; }
@@ -67,8 +65,6 @@ public class PetBreed {
             System.out.println("ERROR: no data for Country of origin.");}}
 
 
-
-
     //construcros for ParrotBreed
 
     public PetBreed(String breedType, String breedName, String colors, boolean handEat, boolean speak, boolean playfull, String placeOfOrigin)
@@ -83,15 +79,10 @@ public class PetBreed {
     }
 
     public  void printBreed(){
-        //public ParrotBreed (String breedType, String breedName, String colors,boolean handEat, boolean speak, boolean playfull)
-        //super.printData();
+
         System.out.printf("breedName = %s is breedType = %s with colors = %s , handEat = %s,  opportunity to speak= %s ,playfull = %s. Region of origin is %s",
                 breedName,breedType, colors, handEat, speak, playfull, placeOfOrigin);
     }
-
-
-
-
     //end
 }
 

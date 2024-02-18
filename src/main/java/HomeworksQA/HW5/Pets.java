@@ -95,8 +95,6 @@ public class Pets {
         // String name;ParrotBreed breed; String size; boolean isMale;float weight; float years;
         System.out.printf("This Pet has name: %s, size: %s, sex: %s, weight: %2f and is %f years old." , name, size, isMale(), weight, years);
         System.out.println("\nLike eat raw meat? =+>"+ likeRawMeat);
-        //System.out.println("The Pet is breed: ");
-
 
     }
 

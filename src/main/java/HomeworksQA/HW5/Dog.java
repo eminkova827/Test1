@@ -1,6 +1,9 @@
-package OOP;
+package HomeworksQA.HW5;
 
-public class Dog extends Pet{
+import OOP.Bread;
+import OOP.Pet;
+
+public class Dog extends Pets {
     //instance variable or characteristics:
     /*private String name;
     private float weight;*/
@@ -74,8 +77,11 @@ public class Dog extends Pet{
     }*/
 
         // sled setter i getter this se smenq s set
-       public Dog(String name, float weight, boolean isGood, boolean isMale, byte age, Bread bread){
-           super(name, weight, isMale, age, bread); // nasledqwane wikame h=ka ot parrent klasa sys super ot glawniq klas pet
+
+
+   // public Pets(String name, float weight, String size,  boolean isMale, float years, boolean likeRawMeat){
+       public Dog(String name, float weight, String size, boolean isMale, float years, boolean likeRawMeat, boolean isGood, PetBreed breed){
+           super(name, weight, size, isMale, years, likeRawMeat); // nasledqwane wikame h=ka ot parrent klasa sys super ot glawniq klas pet
            // setName(name); //sled setter i getter
            // setWeight(weight);
             this.isGood = isGood;

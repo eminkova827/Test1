@@ -5,10 +5,10 @@ public class TestPets {
     public static void main(String[] args) {
         System.out.println("please enter data for PrrotBreed  as :breedName, colors, handEat/nohandEat, speak/npspeak, playfull:");
 
-        //public ParrotBreed (String breedName, String colors,boolean handEat, boolean speak, boolean playfull)
+        //public PetsBreed (String breedName, String colors,boolean handEat, boolean speak, boolean playfull)
         PetBreed ara = new PetBreed("Parrot","Ara", "colored", true, true,true, " Brazil");
       PetBreed cacadu = new PetBreed("Parrot","CAcadu", "white", false, false, true, " Africa");
-
+PetBreed pincher = new PetBreed("dog", "Pincher", "brown", true, false, true, "EU");
 
         System.out.println("\n****----ARA----*****");
         Pets momo = new Pets( "Momo",1.22f, "big", true,  38, true);
@@ -28,7 +28,10 @@ public class TestPets {
 
         System.out.println("\n**-*-*-*-*-**");
 
-        //printBreed();
+        Pets puhpuh = new Pets(" Puh", 1,"little", false, 3, true);
+puhpuh.printData();
+pincher.printBreed();
+
 
 
 }}
