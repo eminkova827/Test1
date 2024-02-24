@@ -12,29 +12,11 @@ public class Player {
     private float passing;
     private float shooting;
 
-   // private Stats stats;
-    public float PlayerSkills;
+
+    private float PlayerSkills;
     private static String forTeamPlayer;
-    public String teamPlayer;
-  //  public String teamName;
-    public String teamRezult;
 
-   // public float overallPlayerSkill;
 
-    private static LinkedList<String> Barcelona = new LinkedList<>();
-    static LinkedList<Float> PlayerRating = new LinkedList<>();
-
-   /* public String getTeamName() {
-        return this.teamName;
-    }
-
-    public void setTeamName(String teamName) {
-        if (!(teamName.isEmpty() || teamName.isBlank() || teamName == null)) {
-            this.teamName = teamName;
-        } else {
-            System.out.println("The Team's name cannot be empty");
-        }
-    }*/
 
     public String getName() {
         return this.name;
@@ -151,10 +133,6 @@ return;
 
     }
 
-    public Player(String teamname) {
-        setName(name);
-
-    }
 
     // methods
 
@@ -162,18 +140,10 @@ return;
 
         float overallPlayerSkill = Math
                 .round((player.getEndurance() + player.getSprint() + player.getDribble() + player.getPassing() + player.getShooting()) / 5);
-        // PlayerSkills = overallPlayerSkill;
+
         forTeamPlayer = String.valueOf(overallPlayerSkill);
         return overallPlayerSkill;
     }
-
-
-    // Adding player to team list
-
-
-
-
-
 
     // end
 }

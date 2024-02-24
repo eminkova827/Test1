@@ -5,8 +5,14 @@ import java.util.Scanner;
 
 public class TeamDetails extends Player{
     static Scanner input = new Scanner(System.in);
-   public String teamName;
+    //private final String teamName1;
+    private  String teamName;
+
     private Player player;
+   private static LinkedList<String> Barcelona = new LinkedList<>();
+    private static LinkedList<Float> PlayerRating = new LinkedList<>();
+
+
 
     public String getTeamName() {
         return teamName;
@@ -22,7 +28,7 @@ public class TeamDetails extends Player{
     }
 
 
-    static LinkedList<String> Barcelona = new LinkedList<>();
+
 
     public Player getPlayer() {
         return this.player;
@@ -38,10 +44,17 @@ public class TeamDetails extends Player{
 
     // constructor
 
-    public TeamDetails(String teamName) {
-        super(teamName);
+    public TeamDetails( String name, float endurance, float sprint, float dribble, float passing, float shooting, String teamName) {
+        super( name, endurance, sprint, dribble, passing, shooting);
         setTeamName(teamName);
     }
+
+
+
+
+   /* public TeamDetails(String teamName) {
+         setTeamName(teamName);
+    }*/
 
 
     // methods
@@ -57,7 +70,7 @@ public class TeamDetails extends Player{
         String word = "Barcelona";
         if (teamName.equals(word)) {
             Barcelona.clear();
-           Player.PlayerRating.clear();
+           PlayerRating.clear();
             //System.out.println(Barcelona);
            // System.out.println(Player.PlayerRating);
         } else {

@@ -194,8 +194,6 @@ _
 /src/main/java/HomeworksQA/HW8/areaTriangle.java,5\b\5be1d6f7222fef86ea6f64b4a236aecd569e5be1
 a
 1src/main/java/HomeworksQA/HW8/arrayRandomNum.java,e\b\ebc81ab146dad85b269b48b3a2f5dc192df691c2
-_
-/src/main/java/HomeworksQA/HW8/faceTriangle.java,6\8\683756806f7f56ade4a9a24aebbf6bb25a80a51c
 Y
 )src/main/java/HomeworksQA/HW8/maxNum.java,3\f\3f449fc71c941a41c7ffd6c931ba2ae11eb21c5c
 b
