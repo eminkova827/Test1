@@ -4,6 +4,15 @@ public class Player {
     private String name;
     private Stats stats;
 
+   /* public Player(String stats, int statrange) {
+        super(stats, statrange);
+    }*/
+   public Player(String name, String stats, int statrange) {
+       // super(stats, statrange);
+        setName(name);
+    }
+
+
     public String getName() {
         return this.name;
     }
@@ -21,7 +30,7 @@ public class Player {
     }
 
     public void setStats(Stats stats) {
-        if (stats.equals(stats)) {
+        if (!stats.equals(null)) {
             this.stats = stats;
         } else {
             System.out.println("Stats must be given");

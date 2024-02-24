@@ -5,7 +5,7 @@ public class Statts {
     private Stats enumstat;
     private String stats;
 
-    private float statrange;
+    private int statrange;
 
     public Stats getEnumstat() {
         return this.enumstat;
@@ -30,29 +30,29 @@ public class Statts {
         }
     }
 
-    public float getStatrange() {
+    public int getStatrange() {
         return this.statrange;
     }
 
-    public void setStatrange(float statrange) {
+    public void setStatrange(int statrange) {
         if (statrange == 0 || statrange > 0.0 || statrange < 100.0 || statrange == 100) {
             this.statrange = statrange;
         } else {
-            System.out.println("statrange is aout of range");
+            System.out.println("statrange is out of range");
         }
     }
 
-    public Statts(String stats, float statrange) {
+    public Statts(String stats, int statrange) {
 
         setStatrange(statrange);
-        setStats(stats);
+        setStats(getStats());
 
     }
 
     // methods
 
-    public void printStats() {
-        System.out.printf("stats:%s , stat = %s and statrange = %f ", enumstat, stats, statrange);
+    public  void printStats() {
+        System.out.printf("stats:%s  and statrange = %d ", Stats.enumstat,  statrange);
     }
 
     // end

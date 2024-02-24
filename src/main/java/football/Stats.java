@@ -6,6 +6,7 @@ public enum Stats {
     SPRINT,
     DRIBBLE,
     PASSING,
-    SHOOTING
+    SHOOTING;
 
+    public static String enumstat;
 }

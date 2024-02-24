@@ -112,10 +112,7 @@ public class TeamDetails extends Player{
 
         if (Barcelona.isEmpty()) System.out.println("Empty team. !!!!!");
         else {
-            //for (int i = 0; i <= Barcelona.size(); i++) {
-            //String element = Barcelona.get(i);
-            // if (!(element.equals(player.getName()))){
-            if (!Barcelona.contains(player.getName())){
+             if (!Barcelona.contains(player.getName())){
                 System.out.printf("Player %s is not in Barcelona team.", player.getName());
 
             } else {
