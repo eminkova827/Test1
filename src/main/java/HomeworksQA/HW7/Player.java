@@ -16,8 +16,6 @@ public class Player {
     private float PlayerSkills;
     private static String forTeamPlayer;
 
-
-
     public String getName() {
         return this.name;
     }

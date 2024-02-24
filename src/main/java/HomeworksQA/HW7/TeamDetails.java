@@ -27,9 +27,6 @@ public class TeamDetails extends Player{
         }
     }
 
-
-
-
     public Player getPlayer() {
         return this.player;
     }
@@ -44,15 +41,13 @@ public class TeamDetails extends Player{
 
     // constructor
 
-    public TeamDetails( String name, float endurance, float sprint, float dribble, float passing, float shooting, String teamName) {
+   public TeamDetails( String name, float endurance, float sprint, float dribble, float passing, float shooting, String teamName) {
         super( name, endurance, sprint, dribble, passing, shooting);
         setTeamName(teamName);
     }
 
 
-
-
-   /* public TeamDetails(String teamName) {
+    /*public TeamDetails(String teamName) {
          setTeamName(teamName);
     }*/
 
