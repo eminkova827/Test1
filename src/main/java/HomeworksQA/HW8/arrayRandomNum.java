@@ -11,7 +11,6 @@ public class arrayRandomNum {
 
      System.out.println("--------random with bounds---------");
     fillArray(5);
-
 }
 
 public static void fillArray(int a) {

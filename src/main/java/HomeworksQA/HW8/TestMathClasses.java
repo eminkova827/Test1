@@ -14,7 +14,6 @@ public class TestMathClasses {
         System.out.println("\n--------fill Array-----------");
 
         arrayRandomNum.nums();
-
     }
 
 

@@ -18,7 +18,6 @@ public class areaTriangle {
         nums();
 
     }
-
     private static double triangleHeron(double num1, double num2, double num3) {
         // double p = Math.divideExact((int) (num1 + num2 + num3), 2); izmestwa
         // rezultata

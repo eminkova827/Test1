@@ -29,7 +29,6 @@ public class maxNum {
         System.out.printf("\nMAX value of num 1 =%d , num 2 = %d and num 3 = %d is: %d\n", num1, num2, num3, maxNum);
         return maxNum;
     }
-
     public static void nums() {
         Scanner input = new Scanner(System.in);
         System.out.print("\nEnter num 1 = ");
