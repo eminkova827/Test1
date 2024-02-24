@@ -3,7 +3,7 @@ package HomeworksQA.HW8;
 public class TestMathClasses {
     public static void main(String[] args) {
 
-        System.out.println("--------MAX value bettween a,b,c-----------");
+        System.out.println("--------MAX value between a,b,c-----------");
 
         maxNum.nums();
 
