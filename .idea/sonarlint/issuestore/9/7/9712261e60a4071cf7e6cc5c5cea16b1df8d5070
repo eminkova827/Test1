@@ -1,7 +1,12 @@
 
 `
-java:S2583"CChange this condition so that it does not always evaluate to "true"(›æÏ8óßİéÛ1
-E	java:S106"+Replace this use of System.out by a logger.(–¦±ùÿÿÿÿ
-b
-java:S1764"ECorrect one of the identical sub-expressions on both sides of equals.(›æÏ8ûßİéÛ1
-E	java:S106"+Replace this use of System.out by a logger.(£ŞıÎşÿÿÿÿ
+java:S2583!"CChange this condition so that it does not always evaluate to "true"(ÃÅ„¿8ƒÙº‘İ1
+]
+java:S1172
+";Remove these unused method parameters "stats", "statrange".(³¹çÎøÿÿÿÿ8ĞÔ«’İ1
+W	java:S125"<This block of commented-out lines of code should be removed.(–í°~8¶‹’İ1
+]	java:S125"<This block of commented-out lines of code should be removed.(Á£¨Íúÿÿÿÿ8ÑÔ«’İ1
+L	java:S106"+Replace this use of System.out by a logger.(–¦±ùÿÿÿÿ8‰Ùº‘İ1
+—
+java:S2159!"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(ÃÅ„¿8‹Ùº‘İ1
+L	java:S106$"+Replace this use of System.out by a logger.(£ŞıÎşÿÿÿÿ8ŒÙº‘İ1

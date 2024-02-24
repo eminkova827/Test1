@@ -1,21 +1,23 @@
 
 ^
-java:S4973"<Strings and Boxed types should be compared using "equals()".(üäšÓşÿÿÿÿ8øú”ñÚ1
+java:S4973"<Strings and Boxed types should be compared using "equals()".(üäšÓşÿÿÿÿ8¯‘©ëÛ1
 ^
-java:S4973"<Strings and Boxed types should be compared using "equals()".(üäšÓşÿÿÿÿ8ùú”ñÚ1
+java:S4973"<Strings and Boxed types should be compared using "equals()".(üäšÓşÿÿÿÿ8°‘©ëÛ1
 ^
-java:S4973"<Strings and Boxed types should be compared using "equals()".(üäšÓşÿÿÿÿ8ùú”ñÚ1
+java:S4973"<Strings and Boxed types should be compared using "equals()".(üäšÓşÿÿÿÿ8±‘©ëÛ1
 ^
-java:S4973"<Strings and Boxed types should be compared using "equals()".(üäšÓşÿÿÿÿ8ùú”ñÚ1
+java:S4973"<Strings and Boxed types should be compared using "equals()".(üäšÓşÿÿÿÿ8±‘©ëÛ1
 ^
-java:S4973"<Strings and Boxed types should be compared using "equals()".(ñşªùÿÿÿÿ8ùú”ñÚ1
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ñşªùÿÿÿÿ8±‘©ëÛ1
 e
-java:S2583"CChange this condition so that it does not always evaluate to "true"(›Ø’Şşÿÿÿÿ8áŞİéÛ1
+java:S2583"CChange this condition so that it does not always evaluate to "true"(›Ø’Şşÿÿÿÿ8·‘©ëÛ1
 œ
-java:S2159"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(›Ø’Şşÿÿÿÿ8èŞİéÛ1
-L	java:S106"+Replace this use of System.out by a logger.(´€·ııÿÿÿÿ8‡û”ñÚ1
+java:S2159"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(›Ø’Şşÿÿÿÿ8º‘©ëÛ1
+L	java:S106"+Replace this use of System.out by a logger.(´€·ııÿÿÿÿ8º‘©ëÛ1
 8
-java:S3626"Remove this redundant jump.(ûÁİ…8ˆû”ñÚ1
-L	java:S106"+Replace this use of System.out by a logger.(Òû¢¤ûÿÿÿÿ8‰û”ñÚ1
-L	java:S106)"+Replace this use of System.out by a logger.(ÇšÑ¡øÿÿÿÿ8Šû”ñÚ1
-G	java:S1067"+Replace this use of System.out by a logger.(Œ…¤ô8Œû”ñÚ1
+java:S3626"Remove this redundant jump.(ûÁİ…8º‘©ëÛ1
+L	java:S106"+Replace this use of System.out by a logger.(Òû¢¤ûÿÿÿÿ8»‘©ëÛ1
+G	java:S106)"+Replace this use of System.out by a logger.(¬º¤¥8¾‘©ëÛ1
+N
+java:S1172-",Remove this unused method parameter "stats".(Èó±…ùÿÿÿÿ8”¶ªëÛ1
+L	java:S1067"+Replace this use of System.out by a logger.(¿˜šÃüÿÿÿÿ8¿‘©ëÛ1

@@ -13,7 +13,7 @@ L	java:S106#"+Replace this use of System.out by a logger.(Îš‚¹øÿÿÿÿ8³‘¯ğÚ1
 L	java:S106%"+Replace this use of System.out by a logger.(Ü‹×ºøÿÿÿÿ8´‘¯ğÚ1
 F	java:S106)"+Replace this use of System.out by a logger.(ìËó8´‘¯ğÚ1
 G	java:S106="+Replace this use of System.out by a logger.(Ñ¾şŠ8µ‘¯ğÚ1
-L	java:S106@"+Replace this use of System.out by a logger.(é´¿üÿÿÿÿ8¶‘¯ğÚ1
+G	java:S106@"+Replace this use of System.out by a logger.(ïû´8¶‘¯ğÚ1
 X	java:S125?"<This block of commented-out lines of code should be removed.(ŞÎÂÚ8¶‘¯ğÚ1
 s
 java:S3457C"Q%n should be used in place of \n to produce the platform-specific line separator.(Ú°Ø¼üÿÿÿÿ8¶‘¯ğÚ1
