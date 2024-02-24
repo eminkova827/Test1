@@ -190,3 +190,13 @@ Y
 .src/main/java/HomeworksQA/HW7/TeamDetails.java,5\9\590bcebda96872bc806565e7875609bd151c5430
 [
 +src/main/java/HomeworksQA/HW7/TestTeam.java,b\5\b5699c03b4f317d1175239eb6ecedc8c2f759794
+_
+/src/main/java/HomeworksQA/HW8/areaTriangle.java,5\b\5be1d6f7222fef86ea6f64b4a236aecd569e5be1
+a
+1src/main/java/HomeworksQA/HW8/arrayRandomNum.java,e\b\ebc81ab146dad85b269b48b3a2f5dc192df691c2
+_
+/src/main/java/HomeworksQA/HW8/faceTriangle.java,6\8\683756806f7f56ade4a9a24aebbf6bb25a80a51c
+Y
+)src/main/java/HomeworksQA/HW8/maxNum.java,3\f\3f449fc71c941a41c7ffd6c931ba2ae11eb21c5c
+b
+2src/main/java/HomeworksQA/HW8/TestMathClasses.java,8\d\8d35c038fdef7b8af0500c2658ff86dbb2adb579
