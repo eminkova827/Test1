@@ -22,7 +22,7 @@ public class Player {
 
     public void setName(String name) {
         String noName = "";
-        if (!(name.isEmpty() || name.isBlank() || name.equals(noName))) {
+        if (!(name.isEmpty() || name.isBlank() || (name.equals(noName)))) {
             this.name = name;
         } else {
             System.out.println("The name cannot be empty");

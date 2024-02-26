@@ -18,4 +18,20 @@ public class asas {
         else{
             System.out.println("Incorrect payment method!!!");
     }
+
+        System.out.println("enter name: ");
+        String name = input.nextLine();
+        String noName = "";
+        if (!(name.isEmpty() || name.isBlank() || (name.equals(noName)))) {
+            name = "abc";
+            System.out.println("abc = " + name);
+        } else {
+            System.out.println("The name cannot be empty");
+        }
+
+
+
+
+     //end
 }}
+
