@@ -212,15 +212,11 @@ Z
 +src/main/java/InterPolyMorthy/Firma_ET.java,b\e\be7eecb1e4513d5cef8e4561fc36b34478845899
 f
 6src/main/java/InterPolyMorthy/TestInterPolyMorthy.java,4\9\4917f5f3f40ae9403d95c86f3b3e49b4aaba96b2
-Y
-)src/main/java/InterPolyMorthy/DaliOK.java,5\d\5d79d80a4aff0a3043a4fb2091ea33f748753a5a
-X
-(src/main/java/InterPolyMorthy/Part1.java,1\f\1f14522b68065560885bc852d7f1a088acdb0b66
 _
 /src/main/java/InterPolyMorthy/Part1/DaliOK.java,1\9\1989ddb302f3ee43374326ebde08464e09abece1
 ^
 .src/main/java/InterPolyMorthy/Part1/Part1.java,5\3\53bb0db06f0b8481f8f999bcce77a064a036c9bb
-`
-0src/main/java/InterPolyMorthy/Part1/factura.java,0\8\085690b53845450ca437c1073bb92ef8d27ac6b3
 Z
 *src/main/java/InterPolyMorthy/Factura.java,3\5\35f4297c01274f9191113c2d8f737af69a49c511
+W
+'src/main/java/InterPolyMorthy/asas.java,4\d\4daa6c597fb1922cdfe3dd1d2c9ba0373a0de97f

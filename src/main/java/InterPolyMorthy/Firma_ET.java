@@ -1,6 +1,7 @@
 package InterPolyMorthy;
 
 
+import java.time.LocalDate;
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -13,12 +14,12 @@ public class Firma_ET extends Company {
     private double initialCapital;
     private double actualCapital;
    private double profit;
-  //  private String clientName;
+   private String clientName;
 
-  //  private String clientMOL;
-   // private String payDetails;
+   private String clientMOL;
+   private String payDetails;
 
-   /* public String getClientName() {
+   public String getClientName() {
         return clientName;
     }
 
@@ -55,7 +56,7 @@ public class Firma_ET extends Company {
 
         }else {
             System.out.println("Incorrect method for payment");
-        }}*/
+        }}
 
     Scanner input = new Scanner(System.in);
 
@@ -129,15 +130,15 @@ public class Firma_ET extends Company {
 @Override
    public void dataForClient() {
 
-        System.out.println("ENTER INFORMATION FOR THE CLIENT: ");
+        System.out.println("\nENTER INFORMATION FOR THE CLIENT: ");
         System.out.print("\nEnter CLIENT Company Name: ");
-     String clientName =  input.nextLine();
+        clientName =  input.nextLine();
 
         System.out.print("Enter CLIENT'S Company MOL Name: ");
-      String clientMOL = input.nextLine();
+      clientMOL = input.nextLine();
 
         System.out.print("How  will be payed: cash/ bank/ card: ");
-          String payDetails = input.nextLine();
+          payDetails = input.nextLine();
          if ((payDetails.equals("cash") ||  payDetails.equals("bank") || payDetails.equals("card"))){
 
         System.out.printf("Client Company name is: %s %n client's MOL names is: %s %n The stock wil be payed with : %s", clientName, clientMOL,payDetails);}
@@ -158,9 +159,9 @@ public class Firma_ET extends Company {
 
       //  System.out.printf("\n Name of product: %s  \n  quantity:%d \n price for 1 kg :%.2f  with  DDS (%)=  %d ", productName,quantity,priceForOne,DDS);
         System.out.printf("\n Name of product: %s  ",productName);
-        System.out.printf("\n Quantity:%d ",quantity);
-        System.out.printf("\n Price for 1 kg :%.2f  ",priceForOne);
-        System.out.printf("\n DDS =  %d ", DDS);
+        System.out.printf("\n Quantity:%d kg",quantity);
+        System.out.printf("\n Price for 1 kg :%.2f BGN ",priceForOne);
+        System.out.printf("\n DDS =  %d  ", DDS);
     }
 
 
@@ -168,9 +169,9 @@ public class Firma_ET extends Company {
     public void dataSeller() {
 
         System.out.printf(" Type of document - %s   № %d / %s", typeDocument, numFact(), dateOfCreation);
-        System.out.println("\n DATA FOR SELLER:" );
+        System.out.println(" \n\bDATA FOR SELLER:" );
        // System.out.println(" №  "+ numFact());
-        System.out.printf(" %nCompany name - %s %n   BULSTAT: %s %n City : %s %n MOL : %s",getName(), getBulstat(), getCity(), getNameBoss() );
+        System.out.printf("Company name - %s %n   BULSTAT: %s %n City : %s %n MOL : %s",getName(), getBulstat(), getCity(), getNameBoss() );
 
     }
 
@@ -186,13 +187,16 @@ public class Firma_ET extends Company {
         //dataStock();
         double finalPrice = quantity*priceForOne;
         finalPrice = finalPrice*1.20;
-        System.out.println("Final Price - "+ finalPrice);
+        System.out.println("\nFinal Price - "+ finalPrice+ " BGN");
 
 
     }
 
 @Override
 public void printDataForClient(){
+    System.out.println("\t\bDATA FOR CLIENT:");
+    System.out.printf("Client Company name is: %s %n client's MOL names is: %s %n The stock wil be payed with : %s", getClientName(), getClientMOL(),getPayDetails());
+    System.out.println(" \nDate: "+ LocalDate.now());
 
 }
 
