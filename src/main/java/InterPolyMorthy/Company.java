@@ -10,6 +10,7 @@ public abstract class  Company implements Factura{
     //private long bulstat;
     private String bulstat;
     private String city;
+  // private int DDS ;//= 20;
 
 
 

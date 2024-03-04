@@ -9,14 +9,14 @@ import static football.Team.addPlayer;
 public class TestTeam {
     public static void main(String[] args) {
 
-       // printStats(Stats.ENDURANCE);
+       //printStats(Stats.ENDURANCE);
 
-        //Statts teststat = new Statts( "ENDURANCE", 50);
+      // Statts teststat = new Statts( "ENDURANCE", 50);
         //Statts asi = new Statts( "PASSING", 67);
 
        // teststat.printStats();
        // asi.printStats();
-       // Player sisi = new Player("Silvia", "Passing", 78);
+     //   Player sisi = new Player("Silvia", "Passing", 78);
         //Player bobo = new Player("Bobi","shoot", 30);
         // Statts teststat1 = new Statts("sprint", 50);
         // teststat1.printStats();
