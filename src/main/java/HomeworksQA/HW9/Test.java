@@ -27,7 +27,7 @@ public class Test {
 
         System.out.println("\n---------FACTURA---------");
 
-        System.out.println("*\n****seler");
+        System.out.println("\n****seler");
       viki1. dataSeller();
         System.out.println("\n*****Stock");
        viki1.dataStock();

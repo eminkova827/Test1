@@ -80,10 +80,10 @@ public class Firma_ET extends Company implements Factura{
     @Override
     public void dataStock() {
 
-        System.out.printf(" You  have selected  %d kg %s , at price: %.2f", Stock.getQuantity(), Stock.getProduct(),Stock.getUnitPrice());
+        System.out.printf(" You  have selected  %d kg %s , at price: %.2f. ", Stock.getQuantity(), Stock.getProduct(),Stock.getUnitPrice());
 
 
-        System.out.println(" You must pay: " +Stock.getFinalPrice()*(1+((double)getDDS())/100) +" BGN");
+        System.out.printf(" You must pay: %.2f BGN with DDS", Stock.getFinalPrice()*(1+((double)getDDS())/100));
        // System.out.println("all product "+ Stock.getFinalPrice());
         //System.out.println("DDS - "+ (double)getDDS()/100);
         //System.out.println("+DDS - "+ Stock.getFinalPrice()*((double)getDDS())/100);
@@ -92,9 +92,11 @@ public class Firma_ET extends Company implements Factura{
 
     @Override
     public void dataSeller() {
-        System.out.printf(" INVOICE  № %d / %s", numFact(), LocalDate.now());
+        //System.out.printf(" INVOICE  № %d / %s / %s", numFact(), LocalDate.now(), numInvoice());
+
+        System.out.printf(" INVOICE  № %s / %s",  numInvoice(), LocalDate.now());
         System.out.println(" \n\bDATA FOR SELLER:" );
-        // System.out.println(" №  "+ numFact());
+
        // System.out.printf("Company name - %s %n   BULSTAT: %s %n City : %s %n MOL : %s",getName(), getBulstat(), getCity(), getNameBoss() );
 
         System.out.printf(" Company name - %s %n  BULSTAT BG: %s  , Work with DDS = %d , %n  City - %s , \n MOL: %s",getName(), getBulstat(), getDDS(),getCity(), getNameBoss() );
@@ -103,8 +105,8 @@ public class Firma_ET extends Company implements Factura{
 
     @Override
     public void PaidDetails() {
-        System.out.println(" You have to  pay: " +Stock.getFinalPrice()*(1+((double)getDDS())/100) +" BGN");
-        System.out.printf("You selected:The stock wil be payed with : %s", getPayDetails());}
+        System.out.printf(" You have to  pay: %.2f BGN with DDS", Stock.getFinalPrice()*(1+((double)getDDS())/100));
+        System.out.printf("\n You selected to pay with : %s", getPayDetails());}
 
 
     @Override
@@ -112,9 +114,13 @@ public class Firma_ET extends Company implements Factura{
         int number =0;
         return ++number;
             }
-
-
-
+@Override
+    public String numInvoice() {
+    numFact();
+        String invoiceNumber = String.format("%010d",numFact());
+        //System.out.println(invoiceNumber);
+        return invoiceNumber;
+    }
 
 }
 
