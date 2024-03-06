@@ -1,6 +1,6 @@
 package HomeworksQA.HW9;
 
-public class Test {
+public class Test  {
     public static void main(String[] args) {
         System.out.println("\n--------Company Data---------");
         Company viki = new Company("Victorya","33.09.2000","1234567890", "SOFIA", 20);
@@ -24,7 +24,11 @@ public class Test {
         System.out.println("\n-----warehoouse------");
 
         Stock prodi= new Stock( true, true);
-        prodi.printStock();
+        //prodi.printStock();
+        try{ prodi.printStock();}
+        catch (Exception e) {
+            System.out.println("Something went wrong. Not available choice.\n Try again!!!.The program will exit");
+        return;}
 
         System.out.println("\n---------FORM: INVOICE---------");
 
@@ -32,7 +36,8 @@ public class Test {
         System.out.println("\n---------SELLER----------\n");
       viki1. dataSeller();
         System.out.println("\n---------GOODS-----------\n");
-       viki1.dataStock();
+      viki1.dataStock();
+
         System.out.println("\n-------PAYDETAILS-------\n");
        viki1.PaidDetails();
         System.out.println("\n---------CLIENT----------\n");
