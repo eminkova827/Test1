@@ -1,6 +1,10 @@
 package HomeworksQA.HW9;
 
+import java.util.LinkedList;
+
 public interface Factura {
+    LinkedList<Integer> Invoices = new LinkedList<>();
+
 
     void dataForClient ();
     void printDataForClient();
@@ -9,9 +13,9 @@ public interface Factura {
     void dataSeller();
 
     void PaidDetails();
-    int numFact();
+
     String numInvoice();
-void Invoice();
+void printInvoice();
 
 
 }

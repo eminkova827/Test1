@@ -27,8 +27,8 @@ public class Test {
         prodi.printStock();
 
         System.out.println("\n---------FORM: INVOICE---------");
-viki1.numFact();
-viki1.Invoice();
+
+       viki1.printInvoice();
         System.out.println("\n---------SELLER----------\n");
       viki1. dataSeller();
         System.out.println("\n---------GOODS-----------\n");
@@ -39,8 +39,12 @@ viki1.Invoice();
       miki.dataForClient();
         System.out.println("\n-------------------------\n");
 
-        viki1.Invoice();
 
+        System.out.println("*******");
+
+//viki1.printInvoice();
+//viki1.printInvoice();
+//viki1.printInvoice();
 
 
 

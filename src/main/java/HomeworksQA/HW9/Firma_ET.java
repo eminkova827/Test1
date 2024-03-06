@@ -14,6 +14,7 @@ public class Firma_ET extends Company implements Factura{
     private double initialCapital;
     private double actualCapital;
     private double profit;
+    private  int number=0;
 
 
 
@@ -109,24 +110,23 @@ public class Firma_ET extends Company implements Factura{
         System.out.printf("\n You prefered method to pay is: %s", getPayDetails());}
 
 
-    @Override
-    public int numFact() {
-        int number =0;
-        return ++number;
-            }
+
 @Override
     public String numInvoice() {
-    numFact();
-        String invoiceNumber = String.format("%010d",numFact());
-        //System.out.println(invoiceNumber);
-        return invoiceNumber;
+    int num = ++number;
+    String invoiceNumber = String.format("%010d",num);
+    //System.out.println("invoiceNumber:"+invoiceNumber);//check for correct number
+    Invoices.add(num);
+   // System.out.println("All Invoices: "+Invoices);//.getLast());////check for correct collection of numbers
+     return invoiceNumber;
+
+
     }
 
     @Override
-    public void Invoice() {
-        System.out.printf(" INVOICE  № %s / %s", numInvoice(), LocalDate.now());
-        System.out.println("\n------------------------------------------");
-
+    public void printInvoice() {
+    System.out.printf(" INVOICE  № %s / %s", numInvoice(), LocalDate.now());
+   System.out.println("\n------------------------------------------");
     }
 
 }
