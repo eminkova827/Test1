@@ -15,7 +15,7 @@ public class Company {
         //if(DDS == 20|| DDS==9 || DDS==0 ){
         if(DDS == 20|| DDS==9  ){
         return DDS;
-    }else System.out.println("DDS=99999999 not correct. \nRead the lay and enter the DDS..!!!");
+    }else System.out.println("DDS=99999999 %% not correct. \nRead the lay and enter the DDS..!!!");
         return  DDS=99999999 ;
 
     }
@@ -25,7 +25,7 @@ public class Company {
         if(DDS == 20|| DDS==9 || DDS==0 ){
         this.DDS = DDS;
     }else {
-            System.out.println("DDS not correct. \nRead the lay and enter the DDS..!!!");
+            System.out.println("DDS not correct. \nRead the lay and enter the correct DDS..!!!");
         }}
 
     public String getCity() {
@@ -95,7 +95,7 @@ public class Company {
     }
 
     public void printCompany(){
-        System.out.printf(" Company name - %s %n date of foundation is - %S  %n  BULSTAT BG: %s  , Work with DDS = %d , %n  City - %s ",getName(), getStartDate(), getBulstat(), getDDS(),getCity() );
+        System.out.printf(" Company name - %s %n date of foundation is - %S  %n  BULSTAT BG: %s  , Work with DDS = %d %%, %n  City - %s ",getName(), getStartDate(), getBulstat(), getDDS(),getCity() );
     }
 
 

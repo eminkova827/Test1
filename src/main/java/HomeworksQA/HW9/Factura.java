@@ -11,7 +11,7 @@ public interface Factura {
     void PaidDetails();
     int numFact();
     String numInvoice();
-
+void Invoice();
 
 
 }

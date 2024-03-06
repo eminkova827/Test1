@@ -8,7 +8,8 @@ public class Test {
         viki.printCompanyData();
 
 
-        System.out.println("\n--------Factura Details-------\n ------seller");
+        System.out.println("\n-------------Factura Details-------");
+        System.out.println("\n---------------seller---------------");
 
         Firma_ET viki1 = new Firma_ET("Agora", "23.34.5","1234567890","Sofia","SHARO",2.00,2000, 20);
 
@@ -25,16 +26,20 @@ public class Test {
         Stock prodi= new Stock( true, true);
         prodi.printStock();
 
-        System.out.println("\n---------FACTURA---------");
-
-        System.out.println("\n****seler");
+        System.out.println("\n---------FORM: INVOICE---------");
+viki1.numFact();
+viki1.Invoice();
+        System.out.println("\n---------SELLER----------\n");
       viki1. dataSeller();
-        System.out.println("\n*****Stock");
+        System.out.println("\n---------GOODS-----------\n");
        viki1.dataStock();
-        System.out.println("\n*****paidDetails");
+        System.out.println("\n-------PAYDETAILS-------\n");
        viki1.PaidDetails();
-        System.out.println("\n*****client");
+        System.out.println("\n---------CLIENT----------\n");
       miki.dataForClient();
+        System.out.println("\n-------------------------\n");
+
+        viki1.Invoice();
 
 
 
