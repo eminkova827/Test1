@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Test {
 
-    public static void main(String[] args) throws IOException , CookieMonsterSadException{
+    public static void main  (String[] args) throws IOException , CookieMonsterSadException{
 //ReadFile.read("C:\\blhe\\blha.txt");
         try{
        // ReadFile.read("src/main/resources/tesxt.txt");//text.txt
@@ -39,15 +39,8 @@ Scanner scanner = new Scanner(System.in);
             throw new CookieMonsterSadException(e.getMessage(),a);
 
     }
-        scanner.close();
-        GregorianCalendar gcalendar = new GregorianCalendar();
-        String startDate = "2024-02-15";
-        if (Boolean.parseBoolean((startDate))){
-            System.out.print( "valid date");
-        }
-        else{
-            System.out.println(" ERROR date");
+       //Date test = new Date("Moni","12-30-2023");
+       // Date test1 = new Date("Moni","-30-2023");
 
 
-        }
 }}

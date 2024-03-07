@@ -1,13 +1,16 @@
 package HomeworksQA.HW9;
 
+import HomeworksQA.HW9.Date.DateValidator;
+import HomeworksQA.HW9.Date.DateValidatorUsingDateFormat;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 import static java.lang.String.valueOf;
 
-public class Company {
-
+public class Company extends Date{
+    DateValidator  validator = new DateValidatorUsingDateFormat("dd/MM/yyyy");
     private static String name;
    private String startDate;
 
@@ -59,12 +62,20 @@ public class Company {
     }
 
     public void setStartDate(String startDate) {
+        if (validator.isValid(startDate)){
+            this.startDate = startDate;
+        } else {this.startDate = "00.00.0000";
+            System.out.println("No correct format or Empty start date at Company.Date format is: dd/MM/yyyy .");
+        }
+    }
+
+    /*public void setStartDate(String startDate) {
           if (!startDate.isEmpty()){
               this.startDate = startDate;
             } else {
                 System.out.println("Empty start date at Company.");
             }
-        }
+        }*/
 
 
     public String getBulstat() {
@@ -74,7 +85,7 @@ public class Company {
     protected void setBulstat(String bulstat) {
         if( !(bulstat.length() == 0 || bulstat.length()!=10)){
             this.bulstat = bulstat;
-        }else { System.out.println("Incorect BULSTAT - (EIK) !!!.");}}
+        }else { System.out.println("Incorrect BULSTAT - (EIK) !!!.");}}
 
     //constructor
     public Company(String name, String startDate, String bulstat, String city) {
