@@ -31,9 +31,6 @@ public class Stock {
     private boolean warehouse = true;
 
 
-
-
-
     public Prodi getProdi() {
         return this.prodi;
     }
@@ -41,9 +38,9 @@ public class Stock {
     public void setProdi(Prodi prodi) {
        if (prodi != null){
             this.prodi = prodi;
-        }else{System.out.println("Enter stat of player");}}
-
-
+        }else{System.out.println("Enter stat of player");
+       }
+    }
 
 
     public static String getProduct() {
@@ -54,10 +51,9 @@ public class Stock {
         if (product.equals("APPLE") || product.equals("PINEAPPLE") ||product.equals("KIWI")){
         this.product = product;
     }else {
-            System.out.println(" No such product for sell or product not available!!!");}}
-
-
-
+            System.out.println(" No such product for sell or product not available!!!");
+        }
+    }
 
 
     public static double getUnitPrice() {
@@ -67,8 +63,9 @@ public class Stock {
     public void setUnitPrice(double unitPrice) {
         if (product == "APPLE" || product == "PINEAPPLE" || product == "KIWI" ){
             this.unitPrice = unitPrice;
-    }else {System.out.println(" No such product for sell or product not available!!!");}}
-
+    }else {System.out.println(" No such product for sell or product not available!!!");
+        }
+    }
 
     public Stock(boolean warehouse, boolean available, double unitPrice) {
                this.warehouse= warehouse;
@@ -78,56 +75,39 @@ public class Stock {
     public Stock(boolean warehouse, boolean available) {
         this.warehouse = warehouse;
         this.available = available;
-
     }
-
-
-
-   /* public Stock(String prodi, String product, boolean available, double unitPrice) {
-       setProdi(getProdi());
-        setProduct(product);
-        this.available = available;
-        setUnitPrice(unitPrice);
-    }*/
-
-    /*public Stock(String prodi,  boolean available, double unitPrice) {
-          super() ;
-    setProdi(getProdi());
-       // setProduct(product);
-        this.available = available;
-        setUnitPrice(unitPrice);
-    }*/
-
-
-
 
 
     public void selectProduct(){
         System.out.print(" Enter 1 for APPLE, 2 for PINEAPPLE, 3 for KIWI : ");
         int x = input.nextInt();
-        switch (x){
-            case 1:
-                setProduct("APPLE");setUnitPrice(2.35);
-                System.out.printf(" We have %s for you, at price without DDS: %.2f .", getProduct(),getUnitPrice());
-                System.out.print("  Enter how much pieces you wish : ");
-                quantity = input.nextInt();break;
-            case 2:
-                setProduct("PINEAPPLE");setUnitPrice(4.75);
-                System.out.printf(" We have %s for you, at price without DDS: %.2f .", getProduct(),getUnitPrice());
-                System.out.print("  Enter how much pieces you wish : ");
-                quantity = input.nextInt();break;
-            case 3:
-                setProduct("KIWI");setUnitPrice(2.15);
-                System.out.printf(" We have %s for you, at price without DDS: %.2f .", getProduct(),getUnitPrice());
-                System.out.print("  Enter how much pieces you wish : ");
-                quantity = input.nextInt();break;
+                        switch (x) {
+                    case 1:
+                        setProduct("APPLE");
+                        setUnitPrice(2.35);
+                        System.out.printf(" We have %s for you, at price without DDS: %.2f .", getProduct(), getUnitPrice());
+                        System.out.print("  Enter how much pieces you wish : ");
+                        quantity = input.nextInt();
+                        break;
+                    case 2:
+                        setProduct("PINEAPPLE");
+                        setUnitPrice(4.75);
+                        System.out.printf(" We have %s for you, at price without DDS: %.2f .", getProduct(), getUnitPrice());
+                        System.out.print("  Enter how much pieces you wish : ");
+                        quantity = input.nextInt();
+                        break;
+                    case 3:
+                        setProduct("KIWI");
+                        setUnitPrice(2.15);
+                        System.out.printf(" We have %s for you, at price without DDS: %.2f .", getProduct(), getUnitPrice());
+                        System.out.print("  Enter how much pieces you wish : ");
+                        quantity = input.nextInt();
+                        break;
                 default:
-                throw new IllegalStateException("Unexpected value: " + x);
-        }
-
+                System.out.println("Something went WRONG. Not available choice.\n The program can't generate empty INVOICE!!!");
+                    throw new IllegalStateException("Unexpected value: " + x);
+                               }
     }
-
-
 
     public void printStock(){
         selectProduct();
@@ -136,15 +116,6 @@ public class Stock {
 finalPrice = quantity *getUnitPrice();
 
         System.out.println(" Without DDS You must pay: " + getFinalPrice() +" BGN");
-
-
     }
-/* public void printStock(){
-        Scanner input = new Scanner(System.in);
-        System.out.printf(" We have %s for you, at price: %.2f", getProductName(),getPriceForOne());
-        System.out.println("Enter how much pieces you wish : ");
-        int a = input.nextInt();
 
-        System.out.println(" You must pay: " + (a*getPriceForOne()) +" BGN");
-    }*/
 }

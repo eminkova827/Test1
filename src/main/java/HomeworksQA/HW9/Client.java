@@ -11,9 +11,6 @@ public class Client {
     private String bulstat;
     private String city;
 
-
-
-    // private String payDetails;
    enum payDetails {
        CARD,
        BANK,
@@ -35,9 +32,6 @@ public class Client {
         }else {
             System.out.println("Incorrect method for payment");
         }}
-
-
-
 
 
     public String getClientName() {
@@ -84,7 +78,6 @@ public class Client {
         }}
 
 
-
     public Client(String clientName, String clientMOL, String bulstat, String city, String payDetails) {
 
         setClientName(clientName);
@@ -93,7 +86,6 @@ public class Client {
         setCity(city);
         this.payDetails = payDetails;
     }
-
 
     public void dataForClient() {
 
@@ -104,9 +96,6 @@ public class Client {
           else{
         System.out.println("Incorrect payment method!!!");
     }}
-
-
-
 
 
 }

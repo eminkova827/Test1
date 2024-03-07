@@ -3,15 +3,13 @@ package HomeworksQA.HW9;
 public class Test  {
     public static void main(String[] args) {
         System.out.println("\n--------Company Data---------");
-        Company viki = new Company("Victorya","33.09.2000","1234567890", "SOFIA", 20);
-        viki.printCompany();
-        viki.printCompanyData();
+        Company viki = new Company("Victorya","2000/9/30","1234567890", "SOFIA", 20);
+        viki.printCompany();// prints all data
+       // viki.printCompanyData();
 
-
-        System.out.println("\n-------------Factura Details-------");
         System.out.println("\n---------------seller---------------");
 
-        Firma_ET viki1 = new Firma_ET("Agora", "23.34.5","1234567890","Sofia","SHARO",2.00,2000, 20);
+        Firma_ET viki1 = new Firma_ET("Agora", "2010/12/25","1234567890","Sofia","SHARO",2.00,2000, 20);
 
         viki1.printCompany();
 
@@ -27,13 +25,13 @@ public class Test  {
         //prodi.printStock();
         try{ prodi.printStock();}
         catch (Exception e) {
-            System.out.println("Something went wrong. Not available choice.\n Try again!!!.The program will exit");
+            System.out.println(" The program will exit. Try again!!!");
         return;}
 
         System.out.println("\n---------FORM: INVOICE---------");
 
        viki1.printInvoice();
-        System.out.println("\n---------SELLER----------\n");
+        System.out.println("\n---------SELLER----------");
       viki1. dataSeller();
         System.out.println("\n---------GOODS-----------\n");
       viki1.dataStock();

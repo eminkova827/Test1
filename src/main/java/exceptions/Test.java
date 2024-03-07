@@ -2,6 +2,7 @@ package exceptions;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.GregorianCalendar;
 import java.util.Scanner;
 
 public class Test {
@@ -39,4 +40,14 @@ Scanner scanner = new Scanner(System.in);
 
     }
         scanner.close();
+        GregorianCalendar gcalendar = new GregorianCalendar();
+        String startDate = "2024-02-15";
+        if (Boolean.parseBoolean((startDate))){
+            System.out.print( "valid date");
+        }
+        else{
+            System.out.println(" ERROR date");
+
+
+        }
 }}

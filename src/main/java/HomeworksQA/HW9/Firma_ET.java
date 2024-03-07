@@ -1,21 +1,15 @@
 package HomeworksQA.HW9;
 
-//import static com.sun.org.apache.xml.internal.serializer.Version.getProduct;
-
 import static HomeworksQA.HW9.Client.getPayDetails;
-//import static InterPolyMorthy.Factura.dateOfCreation;
-
 import java.time.LocalDate;
 
 public class Firma_ET extends Company implements Factura{
-
 
     private String nameBoss;
     private double initialCapital;
     private double actualCapital;
     private double profit;
     private  int number=0;
-
 
 
     public String getNameBoss() {
@@ -65,9 +59,6 @@ public class Firma_ET extends Company implements Factura{
     }
 
 
-
-
-
     @Override
     public void dataForClient() {
 
@@ -82,13 +73,10 @@ public class Firma_ET extends Company implements Factura{
     public void dataStock() {
 
         System.out.printf(" You  have selected  %d kg %s , at price: %.2f BGN without DDS. ", Stock.getQuantity(), Stock.getProduct(),Stock.getUnitPrice());
-
-
         System.out.printf(" You must pay: %.2f BGN without DDS", Stock.getFinalPrice());
        // System.out.println("all product "+ Stock.getFinalPrice());
         //System.out.println("DDS - "+ (double)getDDS()/100);
         //System.out.println("+DDS - "+ Stock.getFinalPrice()*((double)getDDS())/100);
-
     }
 
     @Override
@@ -107,9 +95,8 @@ public class Firma_ET extends Company implements Factura{
     @Override
     public void PaidDetails() {
         System.out.printf(" You have to  pay: %.2f BGN with %d %% DDS", Stock.getFinalPrice()*(1+((double)getDDS())/100), getDDS());
-        System.out.printf("\n You prefered method to pay is: %s", getPayDetails());}
-
-
+        System.out.printf("\n You prefered method to pay is: %s", getPayDetails());
+    }
 
 @Override
     public String numInvoice() {
@@ -119,8 +106,6 @@ public class Firma_ET extends Company implements Factura{
     Invoices.add(num);
    // System.out.println("All Invoices: "+Invoices);//.getLast());////check for correct collection of numbers
      return invoiceNumber;
-
-
     }
 
     @Override

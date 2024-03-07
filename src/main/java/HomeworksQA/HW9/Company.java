@@ -1,12 +1,16 @@
 package HomeworksQA.HW9;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+
 import static java.lang.String.valueOf;
 
 public class Company {
 
     private static String name;
-    private String startDate;
-    //private long bulstat;
+   private String startDate;
+
     private String bulstat;
     private String city;
     private static int DDS ;
@@ -40,8 +44,6 @@ public class Company {
         }}
 
 
-
-
     public static String getName() {
         return name;
     }
@@ -57,10 +59,12 @@ public class Company {
     }
 
     public void setStartDate(String startDate) {
-        if ( ! startDate.isEmpty()){
-            this.startDate = startDate;
-        }else{
-            System.out.println("Empty start date at Company.");}}
+          if (!startDate.isEmpty()){
+              this.startDate = startDate;
+            } else {
+                System.out.println("Empty start date at Company.");
+            }
+        }
 
 
     public String getBulstat() {
@@ -97,7 +101,5 @@ public class Company {
     public void printCompany(){
         System.out.printf(" Company name - %s %n date of foundation is - %S  %n  BULSTAT BG: %s  , Work with DDS = %d %%, %n  City - %s ",getName(), getStartDate(), getBulstat(), getDDS(),getCity() );
     }
-
-
 
 }
