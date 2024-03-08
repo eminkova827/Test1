@@ -26,7 +26,6 @@ public class Password {
 
     public boolean checkPass() {
 
-        // 8 СЃРёРјРІРѕР»Р°: СЃРёРјРІРѕР», С‡РёСЃР»Рѕ Рё Р±СѓРєРІРё
         int countWords = password.split("\\s").length; // broi wywedenite dumi
         System.out.println("number of words in abc: " + countWords);
         if (countWords > 1) {
