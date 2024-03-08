@@ -30,6 +30,5 @@ public class TestTeam {
 
         TeamDetails.TEAM("Barcelona");
         TeamDetails.rating("Barcelona");
-
     }
 }

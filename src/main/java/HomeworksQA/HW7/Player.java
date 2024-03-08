@@ -29,7 +29,6 @@ public class Player {
         }
     }
 
-
     public float getEndurance() {
         return this.endurance;
     }
@@ -39,7 +38,6 @@ public class Player {
             this.endurance = endurance;
         } else {
             System.out.println("Endurance should be between 0 and 100.");
-return;
         }
     }
 
@@ -131,7 +129,6 @@ return;
 
     }
 
-
     // methods
 
     public static float overallPlayerSkill(Player player) {
@@ -143,5 +140,5 @@ return;
         return overallPlayerSkill;
     }
 
-    // end
+
 }

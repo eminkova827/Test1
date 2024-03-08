@@ -47,10 +47,6 @@ public class TeamDetails extends Player{
     }
 
 
-    /*public TeamDetails(String teamName) {
-         setTeamName(teamName);
-    }*/
-
 
     // methods
 
@@ -131,9 +127,7 @@ public class TeamDetails extends Player{
                 //visualization of remove method
                 // System.out.println("Removed: " + player.getName());
                 // System.out.println("EKIP: " + Barcelona);
-
                 ratingTeamRemovingPlayer(player);}
-
         }
 
     }
@@ -166,9 +160,6 @@ public class TeamDetails extends Player{
     }
 
 
-
-    ////
-
     public static void checkSkills(Player player){
 
         if ((player.getEndurance() < 0 || player.getEndurance() > 100)) {
@@ -188,7 +179,7 @@ public class TeamDetails extends Player{
                         }}}}
         }}
 
-    //
+
     public static void checkIfAdd(Player player){
         for (int i = 0; i < Barcelona.size(); i++) {
             // String nameElement = (player.getName());
@@ -200,12 +191,4 @@ public class TeamDetails extends Player{
     }
 
 
-
-
-
-
-
-
-
-    // end
 }
