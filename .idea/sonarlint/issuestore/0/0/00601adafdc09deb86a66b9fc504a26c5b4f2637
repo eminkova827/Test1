@@ -1,42 +1,35 @@
 
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘ÕÎÿÿÿÿÿ8°ŞôÃÙ1
-X	java:S125"<This block of commented-out lines of code should be removed.(Ååøò8…ºÕêÛ1
 S
-java:S2696"6Make the enclosing method "static" or remove this set.(ÌÇ±Ô8ÄŞôÃÙ1
+java:S2696"6Make the enclosing method "static" or remove this set.(ÌÇ±Ô8Ä‚ìá1
 R
-java:S2209"5Change this instance-reference to a static reference.(ÌÇ±Ô8ÄŞôÃÙ1
-G	java:S106"+Replace this use of System.out by a logger.(¢—Á8ÄŞôÃÙ1
-X	java:S125"<This block of commented-out lines of code should be removed.(â£á£8ÅŞôÃÙ1
+java:S2209"5Change this instance-reference to a static reference.(ÌÇ±Ô8‘Ä‚ìá1
+G	java:S106"+Replace this use of System.out by a logger.(¢—Á8ÍŞôÃÙ1
 S
-java:S2696&"6Make the enclosing method "static" or remove this set.(Û©×¸8ÅŞôÃÙ1
+java:S2696"6Make the enclosing method "static" or remove this set.(Û©×¸8“Ä‚ìá1
 R
-java:S2209&"5Change this instance-reference to a static reference.(Û©×¸8ÆŞôÃÙ1
-G	java:S106("+Replace this use of System.out by a logger.(ç«À¨8ÆŞôÃÙ1
-]	java:S125+"<This block of commented-out lines of code should be removed.(öÛ°úÿÿÿÿÿ8ÆŞôÃÙ1
+java:S2209"5Change this instance-reference to a static reference.(Û©×¸8”Ä‚ìá1
+G	java:S106"+Replace this use of System.out by a logger.(ç«À¨8”Ä‚ìá1
 X
-java:S2696."6Make the enclosing method "static" or remove this set.(–¬‘ øÿÿÿÿ8ÆŞôÃÙ1
+java:S2696"6Make the enclosing method "static" or remove this set.(–¬‘ øÿÿÿÿ8•Ä‚ìá1
 X
-java:S26964"6Make the enclosing method "static" or remove this set.(åÔÕÿÿÿÿÿ8ÇŞôÃÙ1
+java:S2696%"6Make the enclosing method "static" or remove this set.(åÔÕÿÿÿÿÿ8—Ä‚ìá1
 W
-java:S22094"5Change this instance-reference to a static reference.(åÔÕÿÿÿÿÿ8ÈŞôÃÙ1
-G	java:S1066"+Replace this use of System.out by a logger.(‚Ÿ„8ÈŞôÃÙ1
+java:S2209%"5Change this instance-reference to a static reference.(åÔÕÿÿÿÿÿ8—Ä‚ìá1
+G	java:S106'"+Replace this use of System.out by a logger.(‚Ÿ„8—Ä‚ìá1
 S
-java:S2696<"6Make the enclosing method "static" or remove this set.(ƒÏ©‚8ÉŞôÃÙ1
+java:S2696-"6Make the enclosing method "static" or remove this set.(ƒÏ©‚8™Ä‚ìá1
 R
-java:S2209<"5Change this instance-reference to a static reference.(ƒÏ©‚8ÉŞôÃÙ1
-L	java:S106>"+Replace this use of System.out by a logger.(èú™‡ùÿÿÿÿ8ÉŞôÃÙ1
-G	java:S106H"+Replace this use of System.out by a logger.(”èüœ8ÊŞôÃÙ1
+java:S2209-"5Change this instance-reference to a static reference.(ƒÏ©‚8šÄ‚ìá1
+L	java:S106/"+Replace this use of System.out by a logger.(èú™‡ùÿÿÿÿ8›Ä‚ìá1
+G	java:S1069"+Replace this use of System.out by a logger.(”èüœ8Ä‚ìá1
 E
-java:S3010S"#Remove this assignment of "isMale".(øëöûùÿÿÿÿ8ÊŞôÃÙ1
-X	java:S125N"<This block of commented-out lines of code should be removed.(¡³¾¿8ÊŞôÃÙ1
+java:S3010C"#Remove this assignment of "isMale".(øëöûùÿÿÿÿ8Ä‚ìá1
 W
-java:S2209S"5Change this instance-reference to a static reference.(øëöûùÿÿÿÿ8ËŞôÃÙ1
-X	java:S125W"<This block of commented-out lines of code should be removed.(ì´Ç´8ËŞôÃÙ1
-F	java:S106`"+Replace this use of System.out by a logger.(ÀÜ›"8ÌŞôÃÙ1
-]	java:S125_"<This block of commented-out lines of code should be removed.(ÒŞ›‡üÿÿÿÿ8ÌŞôÃÙ1
-G	java:S106a"+Replace this use of System.out by a logger.(±È”¤8ÍŞôÃÙ1
-]	java:S125e"<This block of commented-out lines of code should be removed.(½¼ôÆıÿÿÿÿ8ÍŞôÃÙ1
-G	java:S106s"+Replace this use of System.out by a logger.(šç½8óçÿÃÙ1
-o	java:S100v"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¡Ëÿÿÿÿÿ8ÍŞôÃÙ1
+java:S2209C"5Change this instance-reference to a static reference.(øëöûùÿÿÿÿ8 Ä‚ìá1
+F	java:S106N"+Replace this use of System.out by a logger.(ÀÜ›"8¢Ä‚ìá1
+G	java:S106O"+Replace this use of System.out by a logger.(±È”¤8¢Ä‚ìá1
+G	java:S106\"+Replace this use of System.out by a logger.(šç½8¤Ä‚ìá1
+o	java:S100_"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¡Ëÿÿÿÿÿ8¤Ä‚ìá1
 R
-java:S1144v"0Remove this unused private "LikeRawMeat" method.(è¡Ëÿÿÿÿÿ8ÎŞôÃÙ1
+java:S1144_"0Remove this unused private "LikeRawMeat" method.(è¡Ëÿÿÿÿÿ8¥Ä‚ìá1
