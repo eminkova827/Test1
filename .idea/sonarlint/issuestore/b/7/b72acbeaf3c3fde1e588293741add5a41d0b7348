@@ -1,9 +1,9 @@
 
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(γΈγ‘ϊÿÿÿÿ8΅ΑπΪ1
 J
-java:S1481
-"(Remove this unused "abc" local variable.(”Έ¥ϊÿÿÿÿ8¤ΑπΪ1
-G	java:S106"+Replace this use of System.out by a logger.(Ζΐϋύ8¥ΑπΪ1
-G	java:S106"+Replace this use of System.out by a logger.(ϊ•€Λ8¨ΑπΪ1
-G	java:S106"+Replace this use of System.out by a logger.(Ω­†Ν8¨ΑπΪ1
-G	java:S106"+Replace this use of System.out by a logger.(€γηχ8©ΑπΪ1
+java:S1481	"(Remove this unused "abc" local variable.(”Έ¥ϊÿÿÿÿ8¤ΑπΪ1
+G	java:S106
+"+Replace this use of System.out by a logger.(Ζΐϋύ8¥ΑπΪ1
+G	java:S106"+Replace this use of System.out by a logger.(ϊ•€Λ8¨ΑπΪ1
+G	java:S106"+Replace this use of System.out by a logger.(Ω­†Ν8¨ΑπΪ1
+G	java:S106"+Replace this use of System.out by a logger.(€γηχ8©ΑπΪ1

@@ -3,10 +3,7 @@ package HomeworksQA.HW5;
 public class Pets {
 //characteristics - fields
     private static String name;
-   // private ParrotBreed breed;
-
     private static String size;// big or littel
-
     private static boolean isMale;
 
       private static float weight;
@@ -15,22 +12,12 @@ public class Pets {
 
 //getters and setters
 
-
     public String getName() {return name;}
 
     public void setName(String name) {
         if (!name.isEmpty()) {this.name = name; }
         else {
             System.out.println("Error: no NAme entered!!!");}}
-
-//    //public ParrotBreed getBreed() { return breed;}
-//
-//    public void setParrotBreed(ParrotBreed breed) {
-//        if (breed != null){  this.breed = breed;
-//            System.out.println(" ParrotbREED= ");}
-//        else {
-//            System.out.println("ERROR: no data for breed");
-//        }}
 
     public String getSize() {return size; }
 
@@ -39,8 +26,6 @@ public class Pets {
         else {
             System.out.println("ERROR: no size entered.!!!!");
         }}
-
-    //public boolean isMale() {return male;}
 
     public void setMale(boolean male) {
         isMale = male;
@@ -75,8 +60,7 @@ public class Pets {
 
     // constructor
 
-    //public Pets(String name, float weight, String size,  boolean isMale, float years, PetBreed, boolean likeRawMeat){
-        public Pets(String name, float weight, String size,  boolean isMale, float years, boolean likeRawMeat){
+           public Pets(String name, float weight, String size,  boolean isMale, float years, boolean likeRawMeat){
 
         setName(name); //sled setter i getter "set" ane "this"
         setWeight(weight);
@@ -84,7 +68,6 @@ public class Pets {
         setSize(size);
         setYears(years);
 
-       // setParrotBreed(breedType);
         setLikeRawMeat(likeRawMeat);
     }
 
@@ -92,16 +75,11 @@ public class Pets {
     //methods
     public  void printData( )
     {
-        // String name;ParrotBreed breed; String size; boolean isMale;float weight; float years;
         System.out.printf("This Pet has name: %s, size: %s, sex: %s, weight: %2f and is %f years old." , name, size, isMale(), weight, years);
         System.out.println("\nLike eat raw meat? =+>"+ likeRawMeat);
 
     }
 
-//    public void printBreed(){
-//       //public ParrotBreed (String breedName, String colors,boolean handEat, boolean speak, boolean playfull)
-//       System.out.printf(" breedName = %s, colors = %s , handEat = %s,  speak= %s , playfull = %s", breedName, colors, handEat, speak, playfull);
-//   }
     private String isMale() {
         if (isMale) {
             return "The pet is male";
@@ -109,7 +87,6 @@ public class Pets {
             return "The pet is female";
         }
     }
-
 
     public void eat(){
         System.out.println(" This Pet is eating well!!!");
@@ -122,7 +99,4 @@ public class Pets {
             return "TThis kind of Pet NOT eat raw meat";
         }
     }
-
-
-    //end
 }

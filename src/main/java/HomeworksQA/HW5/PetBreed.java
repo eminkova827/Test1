@@ -5,9 +5,7 @@ public class PetBreed {
    private String breedType;
     private  String breedName;
     private String colors;
-
     private boolean handEat;
-
     private boolean speak;
     private boolean playfull;
 
@@ -41,21 +39,13 @@ public class PetBreed {
         this.colors = colors;  }
 
 
-    //public boolean isHandEat() { return handEat; }
-
     public void setHandEat(boolean handEat) { this.handEat = handEat; }
 
-    //public boolean isSpeak() {return speak; }
 
     public void setSpeak(boolean speak) {this.speak = speak; }
 
-    //public boolean isPlayfull() { return playfull; }
 
     public void setPlayfull(boolean playfull) { this.playfull = playfull; }
-
-
-    //public String getCountryOfOrigin() {  return CountryOfOrigin; }
-
 
 
     public void setPlaceOfOrigin(String placeOfOrigin) {
@@ -83,7 +73,7 @@ public class PetBreed {
         System.out.printf("breedName = %s is breedType = %s with colors = %s , handEat = %s,  opportunity to speak= %s ,playfull = %s. Region of origin is %s",
                 breedName,breedType, colors, handEat, speak, playfull, placeOfOrigin);
     }
-    //end
+
 }
 
 

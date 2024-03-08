@@ -1,14 +1,10 @@
 
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘ÕÎÿÿÿÿÿ8¸²ÃÃÙ1
-]	java:S125"<This block of commented-out lines of code should be removed.(Û«¦àøÿÿÿÿ8À²ÃÃÙ1
-G	java:S106"+Replace this use of System.out by a logger.(åÕşå8À²ÃÃÙ1
-G	java:S106"+Replace this use of System.out by a logger.(ß¾É8Á²ÃÃÙ1
+G	java:S106"+Replace this use of System.out by a logger.(åÕşå8À²ÃÃÙ1
+G	java:S106"+Replace this use of System.out by a logger.(ß¾É8Á²ÃÃÙ1
 N
-java:S1172$",Remove this unused method parameter "breed".(Ù½¨îüÿÿÿÿ8¥ åÃÙ1
-X	java:S125"<This block of commented-out lines of code should be removed.(­Éµç8Á²ÃÃÙ1
-]	java:S125'"<This block of commented-out lines of code should be removed.(àâî»şÿÿÿÿ8Â²ÃÃÙ1
-L	java:S106-"+Replace this use of System.out by a logger.(ß‰½ûûÿÿÿÿ8Ã²ÃÃÙ1
+java:S1172",Remove this unused method parameter "breed".(Ù½¨îüÿÿÿÿ8¥ åÃÙ1
+L	java:S106"+Replace this use of System.out by a logger.(ß‰½ûûÿÿÿÿ8Ã²ÃÃÙ1
 \
-java:S11612":Add the "@Override" annotation above this method signature(íĞ„ûÿÿÿÿ8Ã²ÃÃÙ1
-L	java:S1064"+Replace this use of System.out by a logger.(±˜²üÿÿÿÿ8Ä²ÃÃÙ1
-]	java:S1258"<This block of commented-out lines of code should be removed.(³åÍ­ÿÿÿÿÿ8Ä²ÃÃÙ1
+java:S1161":Add the "@Override" annotation above this method signature(íĞ„ûÿÿÿÿ8Ã²ÃÃÙ1
+L	java:S106"+Replace this use of System.out by a logger.(±˜²üÿÿÿÿ8Ä²ÃÃÙ1
