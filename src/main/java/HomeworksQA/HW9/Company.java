@@ -69,15 +69,6 @@ public class Company extends Date{
         }
     }
 
-    /*public void setStartDate(String startDate) {
-          if (!startDate.isEmpty()){
-              this.startDate = startDate;
-            } else {
-                System.out.println("Empty start date at Company.");
-            }
-        }*/
-
-
     public String getBulstat() {
         return bulstat;
     }
@@ -109,8 +100,12 @@ public class Company extends Date{
         System.out.printf(" Company name - %s %n date of foundation is - %S  %n  BULSTAT BG: %s  %n  City - %s ",getName(), getStartDate(), getBulstat(), getCity() );
     }
 
-    public void printCompany(){
-        System.out.printf(" Company name - %s %n date of foundation is - %S  %n  BULSTAT BG: %s  , Work with DDS = %d %%, %n  City - %s ",getName(), getStartDate(), getBulstat(), getDDS(),getCity() );
-    }
-
+    public void printCompany() throws IllegalStateException {
+        try {
+            if (!getStartDate().equals("00.00.0000"))
+                System.out.printf(" Company name - %s %n date of foundation is - %S  %n  BULSTAT BG: %s  , Work with DDS = %d %%, %n  City - %s ", getName(), getStartDate(), getBulstat(), getDDS(), getCity());
+        } catch (Exception e) {
+            System.out.println("No correct format or Empty start date at Company.Date format must be: dd/MM/yyyy .");
+          }
+            }
 }

@@ -3,13 +3,14 @@ package HomeworksQA.HW9;
 public class Test  {
     public static void main(String[] args) {
         System.out.println("\n--------Company Data---------");
-        Company viki = new Company("Victorya","2000/9/30","1234567890", "SOFIA", 20);
-        viki.printCompany();// prints all data
-       // viki.printCompanyData();
+
+        Company viki = new Company("Victorya","06/02/2024","1234567890", "SOFIA", 20);
+        viki.printCompany();
+
 
         System.out.println("\n---------------seller---------------");
 
-        Firma_ET viki1 = new Firma_ET("Agora", "2010/12/25","1234567890","Sofia","SHARO",2.00,2000, 20);
+        Firma_ET viki1 = new Firma_ET("Agora", "15/12/2021","1234567890","Sofia","SHARO",2.00,2000, 20);
 
         viki1.printCompany();
 
