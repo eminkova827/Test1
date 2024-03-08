@@ -7,7 +7,6 @@ public class Test  {
         Company viki = new Company("Victorya","06/02/2024","1234567890", "SOFIA", 20);
         viki.printCompany();
 
-
         System.out.println("\n---------------seller---------------");
 
         Firma_ET viki1 = new Firma_ET("Agora", "15/12/2021","1234567890","Sofia","SHARO",2.00,2000, 20);
