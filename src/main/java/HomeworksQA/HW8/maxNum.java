@@ -38,9 +38,6 @@ public class maxNum {
         System.out.print("\nEnter num 3 = ");
         int num3 = input.nextInt();
         numMax2(num1, num2, num3);
-
     }
-
-
 
 }

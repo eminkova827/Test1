@@ -12,7 +12,6 @@ public class arrayRandomNum {
      System.out.println("--------random with bounds---------");
     fillArray(5);
 }
-
 public static void fillArray(int a) {
     Random random = new Random();
     int[] randomNum = new int[a];
@@ -34,6 +33,5 @@ public static void nums() {
     fillArray(arraySize);
 
 }
-
 
 }

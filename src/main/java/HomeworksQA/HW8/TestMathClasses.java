@@ -16,5 +16,4 @@ public class TestMathClasses {
         arrayRandomNum.nums();
     }
 
-
 }

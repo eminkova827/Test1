@@ -16,7 +16,6 @@ public class areaTriangle {
         System.out.println("Math.sqrt(63) =  " + Math.sqrt(63));
 
         nums();
-
     }
     private static double triangleHeron(double num1, double num2, double num3) {
         // double p = Math.divideExact((int) (num1 + num2 + num3), 2); izmestwa
@@ -39,7 +38,6 @@ public class areaTriangle {
         System.out.println("Area_triangle = sqrt(pp) " + areaTriangle);
 
         return Math.sqrt(pp);
-
     }
 
     public static void nums() {
@@ -54,8 +52,5 @@ public class areaTriangle {
         triangleHeron(num1, num2, num3);
 
     }
-
-
-
 
 }
