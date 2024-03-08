@@ -5,15 +5,15 @@ public class TestMathClasses {
 
         System.out.println("--------MAX value between a,b,c-----------");
 
-        maxNum.nums();
+        MaxNum.nums();
 
         System.out.println("\n-------Area triangle Heron------------");
 
-        areaTriangle.nums();
+        AreaTriangle.nums();
 
         System.out.println("\n--------fill Array-----------");
 
-        arrayRandomNum.nums();
+        ArrayRandomNum.nums();
     }
 
 }

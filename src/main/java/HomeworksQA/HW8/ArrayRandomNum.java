@@ -2,10 +2,7 @@ package HomeworksQA.HW8;
 import java.util.Random;
 import java.util.Scanner;
 
-
-import static java.lang.Math.random;
-
-public class arrayRandomNum {
+public class ArrayRandomNum {
     public static void main(String[] args) {
 
 

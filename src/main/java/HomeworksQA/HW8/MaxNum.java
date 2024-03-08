@@ -2,7 +2,7 @@ package HomeworksQA.HW8;
 
 import java.util.Scanner;
 
-public class maxNum {
+public class MaxNum {
 
     public static void main(String[] args) {
         numMax(2, 78, 95);

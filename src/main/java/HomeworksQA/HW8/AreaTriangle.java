@@ -2,7 +2,7 @@ package HomeworksQA.HW8;
 
 import java.util.Scanner;
 
-public class areaTriangle {
+public class AreaTriangle {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println(Math.divideExact(120, 60));

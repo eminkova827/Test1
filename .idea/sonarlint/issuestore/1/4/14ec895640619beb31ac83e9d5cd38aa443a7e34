@@ -8,14 +8,14 @@ G	java:S106"+Replace this use of System.out by a logger.( Ç³«8°‘¯ğÚ1
 E	java:S108")Either remove or fill this block of code.(å¥‡8ì ßëá1
 o
 java:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ˆ†§8°‘¯ğÚ1
-L	java:S106"+Replace this use of System.out by a logger.(Îš‚¹øÿÿÿÿ8³‘¯ğÚ1
-L	java:S106!"+Replace this use of System.out by a logger.(Ü‹×ºøÿÿÿÿ8´‘¯ğÚ1
-F	java:S106%"+Replace this use of System.out by a logger.(ìËó8´‘¯ğÚ1
-G	java:S1069"+Replace this use of System.out by a logger.(Ñ¾şŠ8µ‘¯ğÚ1
-G	java:S106<"+Replace this use of System.out by a logger.(ïû´8¶‘¯ğÚ1
-X	java:S125;"<This block of commented-out lines of code should be removed.(ŞÎÂÚ8¶‘¯ğÚ1
+L	java:S106"+Replace this use of System.out by a logger.(Îš‚¹øÿÿÿÿ8³‘¯ğÚ1
+L	java:S106 "+Replace this use of System.out by a logger.(Ü‹×ºøÿÿÿÿ8´‘¯ğÚ1
+F	java:S106$"+Replace this use of System.out by a logger.(ìËó8´‘¯ğÚ1
+G	java:S1068"+Replace this use of System.out by a logger.(Ñ¾şŠ8µ‘¯ğÚ1
+G	java:S106;"+Replace this use of System.out by a logger.(ïû´8¶‘¯ğÚ1
+X	java:S125:"<This block of commented-out lines of code should be removed.(ŞÎÂÚ8¶‘¯ğÚ1
 s
-java:S3457?"Q%n should be used in place of \n to produce the platform-specific line separator.(Ú°Ø¼üÿÿÿÿ8¶‘¯ğÚ1
-L	java:S106?"+Replace this use of System.out by a logger.(Ú°Ø¼üÿÿÿÿ8·‘¯ğÚ1
+java:S3457>"Q%n should be used in place of \n to produce the platform-specific line separator.(Ú°Ø¼üÿÿÿÿ8¶‘¯ğÚ1
+L	java:S106>"+Replace this use of System.out by a logger.(Ú°Ø¼üÿÿÿÿ8·‘¯ğÚ1
 P
 java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8¢üÈğÚ1
