@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class TestPass {
 
-
     public static void main(String[] args) {
 
         String abc;
@@ -24,12 +23,6 @@ public class TestPass {
             password1.checkPass();
         }
 
-
     }
 
-
-
-
-
-    //end
 }

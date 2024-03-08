@@ -4,7 +4,6 @@ import static HomeworksQA.HW6.Numbers.sumichkata;
 
 public class TestNumbers {
 
-
     public static void main(String[] args) {
 
         int num1 = 47;
@@ -36,6 +35,4 @@ public class TestNumbers {
 
     }
 
-
-    //end
 }

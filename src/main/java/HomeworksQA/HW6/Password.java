@@ -3,13 +3,11 @@ import java.util.Scanner;
 public class Password {
 
 
-
     private String password;
 
     public String getPassword() {
         return this.password;
     }
-
 
 
     // constructor
@@ -22,11 +20,9 @@ public class Password {
         if (password.length() < 8) {
             System.out.println("No enouph length of password. It mast be min 8 symbols");
         } else {
-            return;
-
-        }
+                    }
     }
-    // from net
+
 
     public boolean checkPass() {
 
@@ -74,24 +70,7 @@ public class Password {
     }
 
 
-    /*public static void askPassword(){
-        Scanner input = new Scanner(System.in);
-
-        for (int i = 1; i < 4; i++) {
-            System.out.println("Enter word for pass.");
-            Password password1 = new Password(input.next());
-        }
-    }*/
-
 }
 //// @nnamar1a - false
 // @nnamar1 - ok
-
-
-
-
-
-
-
-    //end
 
